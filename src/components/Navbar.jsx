@@ -32,7 +32,7 @@ export const Navbar = () =>{
                 <a className="text-xl font-bold text-primary flex items-center" href="#hero">
                     <span className="relative z-10 ">
                         
-                        <span className="text-glow text-foreground">Ivan Rios</span> Portfolio
+                        <span className="text-glow text-foreground">Ivan Rios</span>
                     </span>
                 </a>
 
