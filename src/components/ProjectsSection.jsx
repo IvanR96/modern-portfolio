@@ -1,4 +1,4 @@
-import { ExternalLink, Github, GithubIcon } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, GithubIcon } from "lucide-react";
 
 const projects = [
     {
@@ -54,7 +54,7 @@ export const ProjectsSection = () =>{
                                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground">{tag}</span>
                                 ))}
                             </div>
-                        </div>
+                        
 
                         <h3 className="text-xl font-semibold mb-1">
                             {project.title}
@@ -63,17 +63,24 @@ export const ProjectsSection = () =>{
 
                         <div className="flex justify-between items-center">
                             <div className="flex space-x-3">
-                                <a href={project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300"><ExternalLink/></a>
-                                <a href={project.githubUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300"><Github /></a>
+                                <a href={project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300" target="_blank"><ExternalLink size={20}/></a>
+                                <a href={project.githubUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300"><Github size={20}/></a>
 
                             </div>
 
                         </div>
                     </div>
+                    </div>
                 ))}
 
             </div>
-        </div>
+                <div className="text-center mt-12">
+                    <a href="https://github.com/IvanR96" target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2">
+                        Check My Github <ArrowRight size={16}/>
+                    </a>
+                </div>
+            </div>
+        
     </section>
     );
 };
