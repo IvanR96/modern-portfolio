@@ -21,12 +21,12 @@ const projects = [
     },
     {
         id: 3,
-        title: "Sparkmatch",
-        description: "Simple user friendly social connection website focusing on simplicity",
-        image: "/projects/project3.png",
-        tags: ["Javascript", "Bootstrap CSS"],
-        demoUrl: "https://ivanr96.github.io/tindog/",
-        githubUrl: "https://github.com/IvanR96/tindog",
+        title: "Weather App",
+        description: "A responsive, interactive weather application built with React, Vite, and Bootstrap, showcasing real-time weather data fetched from the OpenWeatherMap API.",
+        image: "/projects/weather.png",
+        tags: ["React", "Bootstrap/React-bootstrap", "Vite", "Axios", "OpenWeatherMap API","Environment Variables", "Vercel"],
+        demoUrl: "https://weather-app-ten-theta-26.vercel.app/",
+        githubUrl: "https://github.com/IvanR96/weather-app",
     },
 ]
 
